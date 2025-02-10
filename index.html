@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Chomper's Construction</title>
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chompers Construction</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #003366; /* Dark blue background */
+        color: #fff;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
 
+      h1 {
+        font-size: 4rem;
+        margin: 0;
+        color: #ffd700; /* Gold color */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin: 20px 0;
+        color: #fff;
+      }
+
+      .container {
+        max-width: 800px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+
+      .logo {
+        width: 150px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 20px;
+        border-radius: 50%; /* Optional: Makes the logo circular */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .contact-info {
+        margin-top: 30px;
+        font-size: 1.2rem;
+      }
+
+      .contact-info a {
+        color: #ffd700; /* Gold color */
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .contact-info a:hover {
+        color: #fff; /* White on hover */
+      }
+
+      /* Animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .container {
+        animation: fadeIn 1.5s ease-out;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Chomper's Construction</h1>
+    <div class="container">
+      <!-- Replace the .logo div with an img tag -->
+      <img
+        src="logo_ver001.png"
+        alt="Chompers Construction Logo"
+        class="logo"
+      />
+      <h1>Under Construction</h1>
+      <p>We're working hard to bring you an amazing experience. Stay tuned!</p>
+      <div class="contact-info">
+        <p>For inquiries, please contact:</p>
+        <p>
+          <a href="mailto:service@chompersconstruction.com"
+            >service@chompersconstruction.com</a
+          >
+        </p>
+      </div>
+    </div>
   </body>
 </html>
